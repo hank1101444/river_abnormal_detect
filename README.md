@@ -1,6 +1,6 @@
 # river_abnormal_detect
 
-A project for detecting abnormalities in river scenarios using video input. This guide provides instructions for setting up the environment and running the project in both offline and online modes. Additionally, it explains how to upload predictions and captured video results in real time using either Telegram Bot or LINE Bot.
+This project is designed to detect abnormalities in river environments by analyzing video streams. It uses advanced techniques such as adaptive background subtraction, flow analysis, and object detection to classify detected objects and events. 
 
 ## Prerequisites
 
