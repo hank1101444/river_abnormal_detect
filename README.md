@@ -24,22 +24,22 @@ conda activate river_abnormal_detect
 - Modify the `video_path` variable in `video_detect.py` to the path of the video file you want to test.
 
 ### 2. Online Testing
-- Run the `stream_detect.py` script:
+- Run the `streaming_detect.py` script:
   ```bash
-  python stream_detect.py
+  python streaming_detect.py
   ```
-- Modify the `YTURL("")` variable in `stream_detect.py` to include the URL of the video stream.
+- Modify the `youtube_url` variable in `streaming_detect.py` to include the URL of the video stream.
 
 ## Real-Time Upload of Predictions and Video Captures
 
 There are two options for uploading predictions and captured videos in real time:
 
 ### Option 1: Telegram Bot
-1. Update the `chat_bot_api` field in `utils/config_detect.py` with your Telegram bot's API key.
+1. Update the `tg_token`, `tg_chat_id` field in `utils/config_detect.py` with your Telegram bot's API key.
 2. When running detection, you must also execute the `utils/telegram_bot.py` script:
    ```bash
    python utils/telegram_bot.py
    ```
 
 ### Option 2: LINE Bot
-1. Update the `line_bot_api` field in `utils/config_detect.py` with your LINE bot's API key.
+1. Update the `LineBotApi("")` & `user_id` field in `utils/config_detect.py` with your LINE bot's API key.
