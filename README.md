@@ -1,6 +1,8 @@
-# river_abnormal_detect
+# River Abnormal Aetect
 
 This project is designed to detect abnormalities in river environments by analyzing video streams. It uses advanced techniques such as adaptive background subtraction, flow analysis, and object detection to classify detected objects and events. 
+
+Demo website: https://huggingface.co/spaces/hank710535/River_Abnormal_Web
 
 ## Prerequisites
 
