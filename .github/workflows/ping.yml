@@ -1,15 +1,14 @@
-name: Daily Website Ping
+name: Restart Hugging Face Space
 
 on:
   schedule:
-    - cron: '0 2 * * *' # 每天 UTC 時間 02:00（台灣時間 10:00）
-  workflow_dispatch:     # 也可以手動觸發
+    - cron: '0 0 * * *'  
 
 jobs:
-  ping:
+  restart-space:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Ping Website
+      - name: Restart Space
         run: |
-          curl -I https://huggingface.co/spaces/hank710535/River_Abnormal_Web || echo "網站無法連線"
+          curl -X POST https://api.huggingface.co/spaces/hank710535/River_Abnormal_Web/restart \
+            -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}"
