@@ -14,7 +14,7 @@ jobs:
 
       - name: Restart Hugging Face Space
         run: |
-          curl -X POST https://api.huggingface.co/spaces/hank710535/River_Abnormal_Web/restart \
+          curl -X POST https://huggingface.co/api/spaces/hank710535/River_Abnormal_Web/restart \
             -H "Authorization: Bearer ${{ secrets.HF_TOKEN }}"
 
       - name: Update timestamp file
