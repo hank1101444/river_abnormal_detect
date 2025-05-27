@@ -24,7 +24,7 @@ jobs:
       - name: Commit and push changes
         run: |
           git config user.name "hank710535"
-          git config user.email "github-actions@github.com"
+          git config user.email "hank710535@gmail.com"
           git add restart-log.txt
           git commit -m "chore: daily restart $(date -u +'%Y-%m-%d %H:%M:%S')"
           git push
