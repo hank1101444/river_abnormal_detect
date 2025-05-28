@@ -2,7 +2,7 @@
 
 This project is designed to detect abnormalities in river environments by analyzing video streams. It uses advanced techniques such as adaptive background subtraction, flow analysis, and object detection to classify detected objects and events. 
 
-Paper link: https://www.taai.org.tw/files/domestic/117/%E5%BE%90_TAAI_v4_compressed.pdf (Published at 2024 TAAI)
+Paper link: https://www.taai.org.tw/files/domestic/117/%E5%BE%90_TAAI_v4_compressed.pdf (Presented at 2024 TAAI)
 
 Demo website: https://huggingface.co/spaces/hank710535/River_Abnormal_Web
 
