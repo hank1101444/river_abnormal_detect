@@ -6,6 +6,8 @@ Paper link: https://www.taai.org.tw/files/domestic/117/%E5%BE%90_TAAI_v4_compres
 
 Demo website: https://huggingface.co/spaces/hank710535/River_Abnormal_Web
 
+![image](https://github.com/hank1101444/river_abnormal_detect/blob/main/web.png)
+
 ## Prerequisites
 
 1. Install [conda](https://docs.conda.io/).
